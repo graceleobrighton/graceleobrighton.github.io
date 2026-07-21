@@ -165,6 +165,31 @@ hr {
   color: var(--muted);
 }
 
+/* ---- Section label + "view all" link ---- */
+
+.section-label {
+  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+
+.all-posts {
+  margin-top: 2rem;
+}
+
+.all-posts a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.all-posts a:hover {
+  text-decoration: underline;
+}
+
 /* ---- Post list ---- */
 
 .post-list {
