@@ -165,6 +165,18 @@ hr {
   color: var(--muted);
 }
 
+/* ---- Avatar ---- */
+
+.avatar {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 1.25rem;
+  border: 1px solid var(--border);
+}
+
 /* ---- Section label + "view all" link ---- */
 
 .section-label {
