@@ -177,6 +177,45 @@ hr {
   border: 1px solid var(--border);
 }
 
+/* ---- Card (feature callout) ---- */
+
+.card {
+  margin-top: 3.5rem;
+  padding: 1.75rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--code-bg);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin: 0 0 0.75rem;
+}
+
+.card p {
+  margin: 0 0 1rem;
+}
+
+.card .card-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.button {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem 1.15rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
 /* ---- Section label + "view all" link ---- */
 
 .section-label {
